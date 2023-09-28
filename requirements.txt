@@ -1,9 +1,10 @@
 streamlit
 numpy
 pandas
-plotly_express
 plotnine
 scipy
 pingouin
 statistics
-plotly.graph_objects
+plotly==5.9.0
+plotly-express==0.4.1
+plotnine==0.9.0
