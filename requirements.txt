@@ -6,3 +6,4 @@ plotnine
 scipy
 pingouin
 statistics
+plotly
