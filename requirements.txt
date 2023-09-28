@@ -6,4 +6,4 @@ plotnine
 scipy
 pingouin
 statistics
-plotly
+plotly.graph_objects
