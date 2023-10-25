@@ -10,7 +10,7 @@ st.set_page_config(
 st.write('''# The Tools''')
 
 main_image=Image.open('logo_main_11.JPG')
-st.image(main_image, caption='Version: Beta V1.0', use_column_width='always')
+st.image(main_image, caption='Version: Beta V1.0')
 
 st.sidebar.success("Select a locacase above.")
 
