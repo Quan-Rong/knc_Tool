@@ -7,7 +7,7 @@ from scipy.stats import linregress
 import numpy as np
 from PIL import Image
 
-st.set_page_config(page_title="Bump", page_icon="📈", layout="wide")
+st.set_page_config(page_title="👓K&C Database Analysis", page_icon="📈", layout="wide")
 
 bump_image=Image.open('logo_bump_01.JPG')
 st.image(bump_image, caption='Version: Beta V0.2', use_column_width='always')
