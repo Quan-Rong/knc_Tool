@@ -7,7 +7,7 @@ from scipy.stats import linregress
 import numpy as np
 from PIL import Image
 
-st.set_page_config(page_title="lat_antiphase", page_icon="📈", layout="wide")
+st.set_page_config(page_title="🔅ABAQUS Stiffness PostProcessing", page_icon="📈", layout="wide")
 
 lat_antiphase_image=Image.open('logo_lat_antiphase_01.JPG')
 st.image(lat_antiphase_image, caption='Version: Beta V0.2', use_column_width='always')
