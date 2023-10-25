@@ -7,7 +7,7 @@ from scipy.stats import linregress
 import numpy as np
 from PIL import Image
 
-st.set_page_config(page_title="lat_inphase", page_icon="📈", layout="wide")
+st.set_page_config(page_title="🔦Suspension Parameter Calculation", page_icon="📈", layout="wide")
 
 lat_inphase_image=Image.open('logo_lat_inphase_01.JPG')
 st.image(lat_inphase_image, caption='Version: Beta V0.2', use_column_width='always')
