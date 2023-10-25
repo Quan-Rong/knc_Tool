@@ -7,7 +7,7 @@ from scipy.stats import linregress
 import numpy as np
 from PIL import Image
 
-st.set_page_config(page_title="bump_anti", page_icon="📈", layout="wide")
+st.set_page_config(page_title="🎭GESTAMP Static Loads", page_icon="📈", layout="wide")
 
 bump_anti_image=Image.open('logo_bump_anti_01.JPG')
 st.image(bump_anti_image, caption='Version: Beta V0.2', use_column_width='always')
