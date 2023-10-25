@@ -36,17 +36,23 @@ def cs_body():
     col1, col2 = st.columns(2)
 
     with col1:
-    st.image("logo_main_12.jpg")
-    st.write("Description for image1_1")
-    st.image("logo_main_13.jpg")
-    st.write("Description for image1_2")
+    main_image_01=Image.open('logo_main_12.JPG')    
+    st.image(main_image_01)
+    st.write("✈️K&C Simulation Results PostProcess")
+    
+    main_image_02=Image.open('logo_main_13.JPG')    
+    st.image(main_image_02)
+    st.write("🤸🏻Gestamp Static Loads")
 
 # 在第二个列中显示上下两张图片，并在每张图片下面写一行字
     with col2:
-    st.image("logo_main_14.jpg")
-    st.write("Description for image2_1")
-    st.image("logo_main_15.jpg")
-    st.write("Description for image2_2")
+    main_image_03=Image.open('logo_main_14.JPG')    
+    st.image(main_image_03)
+    st.write("👨🏻‍💻K&C DataBase Analysis")
+    
+    main_image_04=Image.open('logo_main_15.JPG')    
+    st.image(main_image_04)
+    st.write("🕵🏻Suspension Parameter Calculation")
 
     return None
 
